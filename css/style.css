@@ -1,15 +1,112 @@
+body{
+    font-family: Lato,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-size: .95rem;
+    font-weight: 400;
+    letter-spacing: .01rem;
+    line-height: 1.4rem;
+    font-variant: normal;
+    padding: 0 10% 0 10%;
+    /* margin: 0 10% 0 10%; */
+    background-color: #f6f7f8;
+}
+
 .dal{
     /* dalhousie-university-vector-logo 1 */
+    float:left;
 
-    position: fixed;
-    width: 213px;
+    width: 200px;
     /* height: 48px; */
     left: 19px;
     top: 25px;
+    padding: 1em;
 }
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: none;
-    padding: 10px;
+    grid-template-columns:33% 33% 33%;
+    padding-left:1em;
+    align-items: center;
+    column-gap: 1em;
+    row-gap:1em;
+    /* border: 1px red solid; */
   }
+
+div{
+    /* border: 1px red solid; */
+    padding: 1em;
+}
+ul {
+    float:left;
+    display:block;
+    overflow: hidden;
+    list-style:none;
+    list-style-position: inside;
+    width: 100%;
+    padding: 1em;
+    align-items: center;
+    background-color: #F1F1F1;
+    border-radius: 25px;
+
+    /* border: red 1px solid; */
+}
+li a{
+    position:flex;
+    float:left;
+    width: 14%;
+    /* padding: 1em; */
+    text-align: center;
+    /* border: red 1px solid; */
+}
+.icon {
+    float:right;
+}
+i {
+    float:right;
+    padding: .5em;
+    font-size:24px;
+    /* padding-right: 2em; */
+    /* border: 1px red solid; */
+}
+.news{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #F5F5F5;
+    border-radius: 30px;
+}
+.messages {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-color: #F5F5F5;   
+    border-radius: 30px;
+}
+.calendar {
+    background-color: #F5F5F5;
+    border-radius: 30px;
+}
+
+.courses {
+    background-color: #F5F5F5;
+    border-radius: 30px;
+}
+
+.initial {
+    width:36px;
+    height:36px;
+    background-color: darkslateblue;
+    border-radius: 10px;
+    color:#F1F1F1;
+    float:right;
+    font-size: 20px;
+    padding-top: .3em;
+    text-align: center;
+
+}
+.sname {
+    float:right;
+    padding-top:.7em;
+    padding-left:1em;
+
+}
