@@ -1,9 +1,15 @@
 .dal{
     /* dalhousie-university-vector-logo 1 */
 
-position: absolute;
-width: 213px;
-/* height: 48px; */
-left: 19px;
-top: 25px;
+    position: fixed;
+    width: 213px;
+    /* height: 48px; */
+    left: 19px;
+    top: 25px;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: none;
+    padding: 10px;
+  }
