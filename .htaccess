@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName FanYang
+AuthUserFile /users/webhome/fyang/dgin5201/project/.htpasswd
+AuthGroupFile /dev/null
+<Limit GET POST>
+require user dt
+</Limit>

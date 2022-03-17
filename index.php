@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+	include 'connect.php';
+?>
+
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -23,7 +26,7 @@
 
     <body>       
         <header class="header">
-            <img class="dal" src="pic/Dal.jpg" alt="Dalhousie Icon">
+            <a href="index.html"><img class="dal" src="pic/Dal.jpg" alt="Dalhousie Icon"></a>
             <div class="icon">
                 <p class="sname"><strong>Student Name</strong></p>
                 <p class="initial">YY</p>
@@ -38,13 +41,13 @@
         </header>
         <nav class="nav">
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="index.html">ACADEMIC SUPPORT</a></li>
-                <li><a href="index.html">SLEQ</a></li>
-                <li><a href="index.html">COPY RIGHT</a></li>
-                <li><a href="index.html">ePORTFOLIO</a></li>
-                <li><a href="index.html">LIBRARIES</a></li>
-                <li><a href="index.html">HELP</a></li>                                                            
+                <li><a href="index.html"><strong>HOME</strong></a></li>
+                <li><a href="https://www.dal.ca/campus_life/academic-support/advising.html"><strong>ACADEMIC SUPPORT</strong></a></li>
+                <li><a href="https://dal.brightspace.com/d2l/lp/navbars/6606/customlinks/external/5052"><strong>SLEQ</strong></a></li>
+                <li><a href="https://libraries.dal.ca/services/copyright-office/for-faculty/brightspace-for-faculty.html"><strong>COPY RIGHT</strong></a></li>
+                <li><a href="https://dal.brightspace.com/d2l/ep/6606/dashboard/index"><strong>ePORTFOLIO</strong></a></li>
+                <li><a href="https://libraries.dal.ca/"><strong>LIBRARIES</strong></a></li>
+                <li><a href="https://dal.ca.campuspack.net/Groups/Instructional_Technology_Resources_for_Students"><strong>HELP</strong></a></li>                                                            
             </ul>
         </nav>    
         <div class="grid-container">
@@ -55,7 +58,7 @@
             </div>
             
             <div class="news">
-                <h2>Brightspace news</h2>
+                <h3>Brightspace news</h3>
                 <h3>heading.1</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -80,18 +83,21 @@
                       sollicitudin felis dictum sit amet. Maecenas euismod 
                       molestie risus, a pellentesque ligula efficitur id.
                 </p>
+                <p><br></p>
                
 
             </div>
-            <div class="messages">messages
+            <div class="messages">
+                <img class="mpng" src="pic/message.png" alt="messages">
 
             </div>
-            <div class="courses">my courses
+            <div class="courses">
+                <img class="cpng" src="pic/course.png" alt="courses">
 
             </div>
         </div>
         <footer>
-
+            <p><br><br></p>
         </footer>
 
     </body>

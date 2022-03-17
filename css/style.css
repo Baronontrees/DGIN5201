@@ -5,7 +5,7 @@ body{
     letter-spacing: .01rem;
     line-height: 1.4rem;
     font-variant: normal;
-    padding: 0 10% 0 10%;
+    padding: 0 10% 2% 10%;
     /* margin: 0 10% 0 10%; */
     background-color: #f6f7f8;
 }
@@ -27,12 +27,13 @@ body{
     align-items: center;
     column-gap: 1em;
     row-gap:1em;
+    padding-bottom: 1em;
     /* border: 1px red solid; */
   }
 
 div{
     /* border: 1px red solid; */
-    padding: 1em;
+    /* padding: 1em; */
 }
 ul {
     float:left;
@@ -58,6 +59,7 @@ li a{
 }
 .icon {
     float:right;
+    padding: 1em;
 }
 i {
     float:right;
@@ -72,7 +74,10 @@ i {
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: #F5F5F5;
-    border-radius: 30px;
+    border-radius: 25px;
+    width:95%;
+    height: 95%;
+    padding: 1em;
 }
 .messages {
     grid-row-start: 1;
@@ -81,15 +86,30 @@ i {
     grid-column-end: 3;
     background-color: #F5F5F5;   
     border-radius: 30px;
+    /* border: 1px red solid; */
+    width:95%;
+    height: 95%;
+    padding: 1em;
 }
 .calendar {
     background-color: #F5F5F5;
-    border-radius: 30px;
+    border-radius: 25px;
+    width:95%;
+    height: 95%;
+    padding: 1em;
 }
 
 .courses {
     background-color: #F5F5F5;
-    border-radius: 30px;
+    border-radius: 25px;
+    /* border: 1px red solid; */
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* grid-column-start: 0;
+    grid-column-end: 1; */
+    width:95%;
+    height: 95%;
+    padding: 1em;
 }
 
 .initial {
@@ -109,4 +129,15 @@ i {
     padding-top:.7em;
     padding-left:1em;
 
+}
+
+.cpng {
+    border-radius: 25px;
+    height:90%;
+    width:100%;
+}
+.mpng {
+    width:100%;
+    height:90% + 1em;
+    border-radius: 25px;
 }
